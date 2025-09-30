@@ -1,0 +1,14 @@
+[project]
+name = "008-api-development"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.118.0",
+    "pydub>=0.25.1",
+    "python-multipart>=0.0.20",
+    "soundfile>=0.13.1",
+    "transformers>=4.56.2",
+    "uvicorn>=0.37.0",
+]

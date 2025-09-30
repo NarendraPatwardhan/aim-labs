@@ -13,4 +13,8 @@ dependencies = [
     "papermill>=2.6.0",
     "scikit-learn>=1.7.2",
     "seaborn>=0.13.2",
+    "torch>=2.8.0",
 ]
+
+[tool.uv.workspace]
+members = ["008_api_development"]
